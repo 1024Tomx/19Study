@@ -17,3 +17,28 @@ app.use(router)
 // app.use(ElementPlus)
 app.mount('#app')
 // asdhsal
+
+/**
+ * git init
+ * git add .
+ * git commit -m "备份"
+ * git remote -v  查看关联
+ * git remote add origin "ssh路径"
+ * git push ssh路径
+ * 
+ */
+
+/**
+ * 配置自己的username和邮箱
+ * git config --global user.name "自己的用户名"
+ * git config --global user.email "自己的邮箱"
+ * 
+ * 生成ssh
+ * ssh-keygen -t rsa -C "自己的邮箱"
+ * 查看ssh
+ * cat ~/.ssh/id_rsa.pub
+ * 
+ * github生成一个密钥
+ * settings=>SSH and GPG =>new SSH=>加上生成的ssh=>add KEY
+ * 
+ */
