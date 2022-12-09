@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import pinia from './stores'
 
 import App from './App.vue'
 import router from './router'
@@ -15,7 +15,7 @@ import 'vant/lib/index.css';
 
 const app = createApp(App)
 
-app.use(createPinia())
+app.use(pinia)
 app.use(router)
 // app.use(ElementPlus)
 app.use(Vant)
@@ -33,6 +33,7 @@ app.mount('#app')
  * 关联push的某个仓库(后面push的时候就不用加上路径了)
  * git push --set-upstream 自己的仓库地址 master
  * 
+ * git push
  */
 
 /**

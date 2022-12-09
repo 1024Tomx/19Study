@@ -5,9 +5,6 @@
       <img src="@/assets/img/home/banner.webp" alt="" />
     </div>
     <homeSearchBox />
-    <h1>https://m.tujia.com/</h1>
-    <h1>123.207.32.32:1888</h1>
-    <h1>/api/city/all</h1>
   </div>
 </template>
 
