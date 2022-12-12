@@ -4,7 +4,10 @@ import { defineStore } from "pinia";
 
 const useCity = defineStore("city",{
   state:()=>({
-    cities:[]
+    cities:[],
+    city:{
+      cityName:"南昌"
+    }
   }),
   actions:{
     getCityAllAction(){
